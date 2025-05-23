@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Button } from "@/app/components/ui/button"
+import { Button } from "../../components/ui/button"
 import { ArrowLeft, Brain, Code, Database, GitBranch, Globe, Lightbulb, Mic, Sparkles } from "lucide-react"
 
 export default function AboutPage() {

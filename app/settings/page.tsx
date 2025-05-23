@@ -2,16 +2,16 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { Button } from "@/app/components/ui/button"
-import { Input } from "@/app/components/ui/input"
-import { Label } from "@/app/components/ui/label"
-import { Switch } from "@/app/components/ui/switch"
-import { Textarea } from "@/app/components/ui/textarea"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/app/components/ui/select"
+import { Button } from "../../components/ui/button"
+import { Input } from "../../components/ui/input"
+import { Label } from "../../components/ui/label"
+import { Switch } from "../../components/ui/switch"
+import { Textarea } from "../../components/ui/textarea"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../../components/ui/select"
 import { ArrowLeft, Brain, Save } from "lucide-react"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/app/components/ui/card"
-import { Separator } from "@/app/components/ui/separator"
-import { toast } from "@/app/hooks/use-toast"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../../components/ui/card"
+import { Separator } from "../../components/ui/separator"
+import { toast } from "../hooks/use-toast"
 
 export default function SettingsPage() {
   const [voiceEnabled, setVoiceEnabled] = useState(true)

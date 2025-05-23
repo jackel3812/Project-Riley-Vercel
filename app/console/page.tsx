@@ -2,14 +2,14 @@
 
 import { useState, useRef, useEffect } from "react"
 import Link from "next/link"
-import { Button } from "@/app/components/ui/button"
-import { Input } from "@/app/components/ui/input"
-import { Tabs, TabsList, TabsTrigger } from "@/app/components/ui/tabs"
+import { Button } from "../../components/ui/button"
+import { Input } from "../../components/ui/input"
+import { Tabs, TabsList, TabsTrigger } from "../../components/ui/tabs"
 import { ArrowLeft, Brain, Mic, MicOff, Send, Settings, Sparkles, Calculator, Search, Github, Code } from "lucide-react"
-import { Avatar, AvatarFallback, AvatarImage } from "@/app/components/ui/avatar"
-import { Card, CardContent } from "@/app/components/ui/card"
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/app/components/ui/tooltip"
-import { useMobile } from "@/app/hooks/use-mobile"
+import { Avatar, AvatarFallback, AvatarImage } from "../../components/ui/avatar"
+import { Card, CardContent } from "../../components/ui/card"
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "../../components/ui/tooltip"
+import { useMobile } from "../hooks/use-mobile"
 
 type Message = {
   id: string
