@@ -26,6 +26,6 @@
     "RILEY_MODEL": "gpt-4o",
     "RILEY_MODE": "assistant",
     "VOICE_ENABLED": "true",
-    "ALLOW_SELF_EDITING": "false"
+    "ALLOW_SELF_EDITING": "true"
   }
 }
